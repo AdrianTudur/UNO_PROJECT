@@ -51,10 +51,11 @@ public class Card {
 			return true;
 		} else if (this.color == c2.color) {
 			return true;
-		} else if (this.value == c2.color) {
+		} else if (this.value == c2.value) {
 			return true;
-		}
+		} else {
 		return false;
+		}
 	}
 
 	@Override

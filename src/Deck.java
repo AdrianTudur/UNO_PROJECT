@@ -39,10 +39,8 @@ public class Deck {
 		return c;
 	}
 
-	public void restockDeck() {
-		if (theDeck.isEmpty()) {
-
-		}
+	public void restockD(Card c) {
+		theDeck.add(c);
 	}
 
 	@Override
